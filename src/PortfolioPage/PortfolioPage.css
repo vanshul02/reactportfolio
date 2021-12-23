@@ -1,0 +1,175 @@
+div#home {
+    height : auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight:1000;
+    padding : 40vh 0 0 0 ;
+    font-size:24px;
+}
+
+.container span{
+    color: #F9004D;
+}
+
+div#about {
+    padding : 10% 10%;
+    height : auto;
+    display:flex;
+    flex-direction : column;
+    align-items: center;
+    background-color: #202124;
+}
+
+.image-box{
+    border-radius:5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height : 45vh;
+    width : 65vw;
+}
+
+.about-text__wrapper {
+    width : 65vw;
+    font-size:24px;
+}
+
+.about-text {
+    color:rgba(198,201,216,.75);
+}
+
+div#service {
+    background-color: #101010;
+    height : auto;
+    margin:0px;
+    padding : 10% 10%;
+    font-size: 24px;
+    text-align:center;
+}
+
+.service-box__wrapper{
+    margin-top: 10%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:left;
+}
+
+div#projects {
+    height : auto;
+    margin:0px;
+    padding : 10% 10%;
+    font-size: 24px;
+    text-align:center;
+    background-color: #191919;
+}
+
+.project-box__wrapper{
+    margin-top: 10%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:left;
+}
+
+div#contact {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    height : auto;
+    font-size: 24px;
+    background: #101010;
+}
+
+.contact-details__wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.left-contact {
+    text-align: justify;
+    padding-right: 5%;
+    border-bottom: 1px solid rgba(198,201,216,.75);
+}
+
+.left-contact i{
+    font-size: 36px;
+    color : #F9004D;
+}
+
+.right-buttons {
+    padding:3%;
+    font-size: 36px;
+}
+
+.right-buttons a {
+    color : gray;
+    margin: auto 30px;
+    border-radius: 50%;
+    padding: 1rem 1.25rem;
+}
+.right-buttons a:hover {
+    color : white;
+    background:#F9004D;
+}
+
+@media (min-width:769px){
+    div#home {
+        height : 250px;
+        font-size:36px;
+        line-height: 85px;
+        padding: 300px 20px 100px 20px;
+        background-image: url('iiitdmj.jpg');
+    }
+
+    div#about {
+        height : 500px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image-box{
+        background-size: contain;
+        height : 533px;
+        width : 400px;
+    }
+
+    .about-text__wrapper {
+        margin-left: 30px;
+        width : 60%;
+        font-size:24px;
+    }
+
+    div#service {
+        height : 500px;
+    }
+    
+    .service-box__wrapper{
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    div#projects {
+        height : 800px;
+    }
+    
+    .project-box__wrapper{
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    div#contact {
+        height : 350px;
+    }
+
+    .contact-details__wrapper{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .left-contact {
+        border-bottom: 0px;
+        border-right: 1px solid rgba(198,201,216,.75);
+    }
+}

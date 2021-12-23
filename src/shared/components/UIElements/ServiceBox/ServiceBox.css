@@ -1,0 +1,35 @@
+.service-box {
+    margin: 5px 5px;
+    width : 60vw;
+    border-radius:10px;
+    padding : 4% 2%;
+    background-color: #191919;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.service-box i {
+    font-size:48px;
+    color : #F9004D;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.service-box p {
+    color : rgba(198,201,216,.75);
+    font-size:18px;
+    text-align:justify;
+}
+
+.service-box:hover {
+    background: -webkit-linear-gradient(left,#f61b10,#ef0963);
+}
+.service-box:hover i{
+    color:white;
+}
+
+@media (min-width:769px) {
+    .service-box {
+        margin: 0px 5px;
+        height : 200px;
+        width : 30%;
+    }
+}
