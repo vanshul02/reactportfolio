@@ -33,6 +33,11 @@ li.react-tabs__tab--selected{
 .ed-cert .ed-cert-title{
     font-weight: 700;
 }
+.ed-cert p a{
+    color : rgba(198,201,216,.75);
+    text-decoration: none;
+    font-weight: 700;
+}
 .ed-cert .ed-cert-title span{
     font-weight: 400;
 }
